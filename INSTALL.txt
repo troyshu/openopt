@@ -1,0 +1,26 @@
+Do you have any problems with installation for Linux, MS Windows, MacOS? 
+Check webpage
+http://openopt.org/Install
+
+Installation (very briefly, link above leads to more precize):
+
+1. Ensure you have Python (v >= 2.5 is recommended), numpy (v >= 1.1.0 is recommended) and setuptools installed.
+You can use Linux software channels, like this for Debian/*UBUNTU:
+[sudo] aptitude install python-numpy
+[sudo] aptitude install python-setuptools
+(Linux OSes already have Python installed)
+
+# optional, for graphics output:
+[sudo] aptitude install python-matplotlib
+
+# optional packages that may be present in software channels: 
+# python-scipy, python-cvxopt, some others
+
+All optional packages and/or solvers could be installed after OO installation, when they will be required for the tasks involved.
+
+2. 
+[sudo] python setup.py install
+or 
+[sudo] python setup.py develop
+
+3. To check installation you could try running "python nlp_1.py" from /examples directory
