@@ -9,7 +9,8 @@ help(NLP), help(LP), help(QP) # ... etc
 
 See also directory "examples", using on-line documentation is highly recommended:
 
-http://openopt.org/Doc
+(archived page) https://web.archive.org/web/20150310020642/http://openopt.org/Doc
+(no longer working) http://openopt.org/Doc
 
 See also:
 
